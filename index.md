@@ -5,6 +5,8 @@
 
 ― Lewis Carroll, Alice in Wonderland
 
+![](https://pbs.twimg.com/profile_images/417572167010623488/DGIpQgTQ_bigger.png)
+
 It seems that I tweet as @VF4rcy, randomly in French or English, about #lifehacking #education2.0 #startups #innovation #frenchtech and #IoT, way more often than I post on my blog. 
 
 So, you can follow me on twitter.  [gimmick:twitterfollow](VF4rcy)
