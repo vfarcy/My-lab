@@ -18,7 +18,7 @@
 
 [gimmick:ThemeChooser](Change theme)
 
-[gimmick:forkmeongithub](https://github.com/vfarcy/mdwiki/)
+[gimmick:forkmeongithub (color: 'darkblue') ](https://github.com/vfarcy/mdwiki/)
 
 <!-- counter pixel for counting visitors -->
 <!-- <img src="http://stats.markdown.io/mdwiki_info.gif" style="display:none;"/> -->
