@@ -2,6 +2,8 @@
 
 [Wellcome](index.md)
 
+[Blog](blog.farcy.me)
+
 [MDwiki]()
 
   * [About](aboutmdwiki.md)
