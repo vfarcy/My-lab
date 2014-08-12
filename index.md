@@ -1,5 +1,5 @@
 You can follow me on twitter.  [gimmick:twitterfollow](VF4rcy)
 
-This board is intended for general discussion. Media Attachments is enabled. I'm notified upon new messages.
+This moderated board is intended for general discussion. Media Attachments are enabled and you can post as a guest. I'm notified upon new messages.
 
 [gimmick:disqus](mymdwiki)

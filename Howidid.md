@@ -1,54 +1,54 @@
-# How to get started (the hard way) ?
+# Comment publier le wiki sur Github ?
 
-If you haven't already heard about it, [MDwiki](http://dynalon.github.io/mdwiki/) is a cool little CMS/Wiki that runs entirely clientside (HTML5/Javascript) and uses [Markdown](http://en.wikipedia.org/wiki/Markdown)
+Si vous n'en avez pas encore entnedu parlé, [MDwiki](http://dynalon.github.io/mdwiki/) est un CMS / wiki qui s'exécute intégralement dans le navigateur (HTML5/Javascript) et qui utilise [Markdown](http://en.wikipedia.org/wiki/Markdown) comme syntaxe de description du texte.
 
-Since it's all clientside, we can do really cool things like track our changes in git and then host it all on [GitHub Pages](https://pages.github.com/). That means super simple forking, contributing and sharing. Yay for open source!
+Comme il s'exécute intégralement du côté client, il est possible de réaliser des choses assez sympathiques, comme par exemple suivre les chnagements sur git(hub) et héberger gratuitement le contenu sur les [pages Gitub](https://pages.github.com/).
 
-## Setting up MDwiki with GitHub
+## Mettre en place MDwiki sur Github
 
-There is an [official guide](http://dynalon.github.io/mdwiki/#!tutorials/github.md) available on the MDwiki site, but I kind of like to do things my own way, so below is how I go about setting up a new site. (I'll assume you're already setup on GitHub and know vaguely how to use it, if not, maybe checkout the guide above)
+Il existe un [guide officiel](http://dynalon.github.io/mdwiki/#!tutorials/github.md) mais voici une procédure détaillée et complémentaire pour héberger MDwiki sur Github. Nous partons du principe que vous disposez déjà d'un compte Githun.
 
-* On GitHub
-  * [Create a new repository](https://github.com/new) and name it what you want (eg. `my-mdwiki`)
-* Setup initial MDwiki bits
-  * [Download the latest MDwiki release](https://github.com/Dynalon/mdwiki/releases)
-  * Extract it to a folder (eg. `my-mdwiki`)
-  * Here you have a choice:
-    * `mdwiki.html` will give you MDwiki and all of it's libraries packaged as a single file
-    * `mdwiki-slim.html` (my preference) will give you MDwiki, but load it's libraries from a CDN (content delivery network)
-  * Choose the option you want to use and rename it to `index.html`
-  * Next we'll need to create a `config.json` file. You can [read about how this works](http://dynalon.github.io/mdwiki/#!customizing.md) or just use something similar to mine:
+* sur Github
+  * [Créer un répo](https://github.com/new) et lui donner un nom adéquat(par exemple `my-mdwiki`)
+* Installer MDwiki
+  * [Télécharger la dernière version](https://github.com/Dynalon/mdwiki/releases)
+  * L'extraire dans le répertoire du répo (par exemple `my-mdwiki`)
+  * Choisir l'un des deux fichiers suivants :
+    * `mdwiki.html` contient l'ensemble des librairies
+    * `mdwiki-slim.html` contient le noyau de MDwiki et charge les librairies complémentaires depuis internet
+  * En fonction de votre choix, renommer `mdwiki.html` ou `mdwiki-slim.html` en  `index.html`
+  * Créer ensuite un fichier `config.json`. Pour cela, se référer à [ce document](http://dynalon.github.io/mdwiki/#!customizing.md) (en anglais)ou utiliser celui-ci :
 
 ```json
 {
     "useSideMenu": true,
     "lineBreaks": "gfm",
-    "additionalFooterText": "By <a href='http://www.devalias.net/'>Glenn '/dev/alias' Grant</a><br />",
+    "additionalFooterText": "",
     "anchorCharacter": "&para;",
     "title": "My Shiny New MDwiki"
 }
 ```
 
-  * Almost there, create a quick `navigation.md` ([docs](http://dynalon.github.io/mdwiki/#!quickstart.md)) that looks something like
+  * Créer un fichier `navigation.md` ([docs en aglais](http://dynalon.github.io/mdwiki/#!quickstart.md)) qui contient (essentiellement) les menus :
 
 ```markdown
-# Your wiki name
+# Le nom du wiki
 
 [Home](index.md)
 [About](about.md)
 [Download](download.md)
 ```
 
-  * And create your first page (i'll only show you one, but the process is the same). Create a file called `index.md` (as specified in your navigation)
+  * Créer une première page (i'll only show you one, but the process is the same) en créant un fichier `index.md` (même nom que le fichier déclaré dans `navigation.md`.
 
 ```markdown
 # Hello World!
 
-This is my first page!
+Voilà une première page!
 ```
 
-  * That's it for the basic site setup!
-  * As a little bonus, I like to add a script to run a python SimpleHTTPServer for local testing called `run-pyserver.sh` (and make sure to make it executable with `chmod +x run-pyserver.sh`)
+  * Voilà, c'est terminé.
+  * En bonus, de manière à tester le contenu en local, il est possible de lacer un serveur web, par exemple en utilisant le serveur intégré à python. Pour cela, il suffit de créer un script `run-pyserver.sh` (ne pas oublier de la rendre exécutable : `chmod +x run-pyserver.sh` !) : 
 
 ```bash
 #!/bin/bash
@@ -57,14 +57,14 @@ open http://localhost:8000
 python -m SimpleHTTPServer 8000
 ```
 
-* Now we'll setup our git repo:
-  * Open a terminal window, and navigate to the folder you just created (eg. `cd ~/my-mdwiki`)
-  * Initialise the git repo: `git init`
-  * Here we use some [magic](http://www.retrologic.com/jargon/M/magic.html) (from [Sean Estabrooks](http://git.661346.n2.nabble.com/how-to-start-with-non-master-branch-tt3284326.html#a3284821)) to tell git to call the initial branch *gh-pages* instead of *master*: `git symbolic-ref HEAD refs/heads/gh-pages`
-  * Add all the files we've created so far: `git add .`
-  * Commit them: `git commit -m "Initial Commit"`
-  * Add your GitHub repo as a remote (making sure to replace `YOURUSERNAME` with your actual username, and `my-mdwiki` with the name of the repository you created earlier): `git remote add origin git@github.com:YOURUSERNAME/my-mdwiki.git`
-  * Then push it to github: `git push -u origin gh-pages`
-* That's pretty much it! After a short delay, your site should be available at http://YOURUSERNAME.github.io/my-mdwiki
+* Maintenant, il faut initialiser le repo Git:
+  * Se rendre dans le répertoire ad-hoc (par exemple `cd ~/my-mdwiki`)
+  * Initialiser le repo : `git init`
+  * Voilà une astuce [magique](http://www.retrologic.com/jargon/M/magic.html) (de [Sean Estabrooks](http://git.661346.n2.nabble.com/how-to-start-with-non-master-branch-tt3284326.html#a3284821)) pour faire en sorte que Git nomme sa branche initiale *gh-pages* et non *master*: `git symbolic-ref HEAD refs/heads/gh-pages`
+  * Ajouter tous les fichiers créés jusqu'à maintenant : `git add .`
+  * Les commiter :  `git commit -m "Initial Commit"`
+  * Ajouter le repo Gihub en tant que distant (replacer `YOURUSERNAME` avec le login Github réel, et `my-mdwiki` avec le nom du repo créé initialement) : `git remote add origin git@github.com:YOURUSERNAME/my-mdwiki.git`
+  * Puis pousser le tout sur github: `git push -u origin gh-pages`
+* C'est terminé, très rapidement, le wiki est en ligne à l'adresse http://YOURUSERNAME.github.io/my-mdwiki
 
 [source](http://blog.devalias.net/post/92579952637/mdwiki-and-how-to-get-started)
