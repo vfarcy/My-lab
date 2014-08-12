@@ -2,24 +2,23 @@
 
 [Blog](myblog.md)
 
+[Forum](forum.md)
+
 [MDwiki]()
 
   * [About](aboutmdwiki.md)
   * [Quickstart](quickstart.md)
   * [Layout](layout.md)
   * [Gimmicks](gimmicks.md)
+  * [Examples](examples.md)
   * [FAQ](faq.md)
   - - - -
   * # Advanced
   * [Customizing](customizing.md)
 
 [Original]()
-
-  * [Examples](examples.md)
   * [Download](download.md)
   * [Contribute](contribute/index.md)
-  * [Blog](blog.md)
-  * [Forum](forum.md)
 
 
 [gimmick:theme (inverse: false)](spacelab)
