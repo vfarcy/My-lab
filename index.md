@@ -8,8 +8,6 @@ Who in the world am I supposed to be ?
 
 ![](https://pbs.twimg.com/profile_images/417572167010623488/DGIpQgTQ_bigger.png)
 
-[gimmick:twitterfollow](VF4rcy)
-
 It seems that I tweet as [@VF4rcy](https://twitter.com/VF4rcy), randomly in French or English, about #lifehacking #education2.0 #startups #innovation #frenchtech and #IoT, way more often than I post on my blog. 
 <dl><a href="http://fr.linkedin.com/in/vfarcy">      
           <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_120x33.png" width="120" height="33" border="0" alt="View Valéry Farcy's profile on LinkedIn"></a></dl>
@@ -21,4 +19,8 @@ Talk
 This moderated board is intended for general discussion. Media Attachments are enabled and you can post as a guest. I'm notified upon new messages.
 
 [gimmick:disqus](mymdwiki)
+
+Twitter
+--------
+[gimmick:twitterfollow](VF4rcy)
 
