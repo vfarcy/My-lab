@@ -11,21 +11,14 @@
   * # Advanced
   * [Customizing](customizing.md)
 
-[Gimmicks](gimmicks.md)
+[Original]()
 
-[Tutorials]()
-
-  * [About the Tutorials](tutorials.md)
-  - - - -
-  * [Hosting with GitHub](tutorials/github.md)
-  * [Use with Dropbox](tutorials/dropbox.md)
-  * [Set up MDwiki on IIS](tutorials/iis/iis.md)
-
-[Examples](examples.md)
-[Download](download.md)
-[Contribute](contribute/index.md)
-[Blog](blog.md)
-[Forum](forum.md)
+  * [Gimmicks](gimmicks.md)
+  * [Examples](examples.md)
+  * [Download](download.md)
+  * [Contribute](contribute/index.md)
+  * [Blog](blog.md)
+  * [Forum](forum.md)
 
 
 [gimmick:theme (inverse: false)](spacelab)
