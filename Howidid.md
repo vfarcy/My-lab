@@ -1,8 +1,8 @@
 # Comment publier le wiki sur Github ?
 
-Si vous n'en avez pas encore entnedu parlé, [MDwiki](http://dynalon.github.io/mdwiki/) est un CMS / wiki qui s'exécute intégralement dans le navigateur (HTML5/Javascript) et qui utilise [Markdown](http://en.wikipedia.org/wiki/Markdown) comme syntaxe de description du texte.
+[MDwiki](http://dynalon.github.io/mdwiki/) est un CMS / wiki qui s'exécute intégralement dans le navigateur (HTML5/Javascript) et qui utilise [Markdown](http://en.wikipedia.org/wiki/Markdown) comme syntaxe de description du texte.
 
-Comme il s'exécute intégralement du côté client, il est possible de réaliser des choses assez sympathiques, comme par exemple suivre les chnagements sur git(hub) et héberger gratuitement le contenu sur les [pages Gitub](https://pages.github.com/).
+Comme il s'exécute intégralement du côté client, il est possible de réaliser des choses assez sympathiques, comme par exemple suivre les changements sur git(hub) et héberger gratuitement le contenu sur les [pages Gitub](https://pages.github.com/).
 
 ## Mettre en place MDwiki sur Github
 
