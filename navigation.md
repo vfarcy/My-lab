@@ -1,4 +1,4 @@
-# MDwiki
+# Home
 
 [Blog](myblog.md)
 
