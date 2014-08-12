@@ -16,12 +16,6 @@
   * # Advanced
   * [Customizing](customizing.md)
 
-[Original]()
-
-  * [Download](download.md)
-  * [Contribute](contribute/index.md)
-
-
 [gimmick:theme (inverse: false)](spacelab)
 
 [gimmick:ThemeChooser](Change theme)
