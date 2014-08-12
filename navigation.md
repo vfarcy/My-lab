@@ -15,7 +15,6 @@
 
 [Original]()
 
-  * [Gimmicks](gimmicks.md)
   * [Examples](examples.md)
   * [Download](download.md)
   * [Contribute](contribute/index.md)
