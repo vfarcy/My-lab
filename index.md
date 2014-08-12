@@ -11,11 +11,11 @@ Who in the world am I supposed to be ?
 [gimmick:twitterfollow](VF4rcy)
 
 It seems that I tweet as [@VF4rcy](https://twitter.com/VF4rcy), randomly in French or English, about #lifehacking #education2.0 #startups #innovation #frenchtech and #IoT, way more often than I post on my blog. 
-<a href="http://fr.linkedin.com/in/vfarcy">      
-          <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_120x33.png" width="120" height="33" border="0" alt="View Valéry Farcy's profile on LinkedIn"></a>
+<dl><a href="http://fr.linkedin.com/in/vfarcy">      
+          <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_120x33.png" width="120" height="33" border="0" alt="View Valéry Farcy's profile on LinkedIn"></a></dl>
 
 
-Disqus
+Talk
 --------
 
 This moderated board is intended for general discussion. Media Attachments are enabled and you can post as a guest. I'm notified upon new messages.
