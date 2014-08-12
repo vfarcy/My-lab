@@ -13,7 +13,7 @@
   - - - -
   * # Advanced
   * [Customizing](customizing.md)
-  * [How I did](Howidid.md)
+  * [Publier sur Github](Howidid.md)
 
 [gimmick:theme (inverse: false)](spacelab)
 
