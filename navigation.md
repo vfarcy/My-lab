@@ -1,4 +1,4 @@
-# My wiki
+# MDwiki
 
 [Wellcome](index.md)
 
