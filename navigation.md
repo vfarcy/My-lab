@@ -2,9 +2,9 @@
 
 [Blog](myblog.md)
 
-[MDwiki]()
+[About]()
 
-  * [About](aboutmdwiki.md)
+  * [MDwiki ?](aboutmdwiki.md)
   * [Quickstart](quickstart.md)
   * [Layout](layout.md)
   * [Gimmicks](gimmicks.md)
