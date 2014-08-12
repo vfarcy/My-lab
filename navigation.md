@@ -1,7 +1,5 @@
 # MDwiki
 
-[Wellcome](index.md)
-
 [Blog](myblog.md)
 
 [MDwiki]()
