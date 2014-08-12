@@ -6,7 +6,7 @@ Comme il s'exécute intégralement du côté client, il est possible de réalise
 
 ## Mettre en place MDwiki sur Github
 
-Il existe un [guide officiel](http://dynalon.github.io/mdwiki/#!tutorials/github.md) mais voici une procédure détaillée et complémentaire pour héberger MDwiki sur Github. Nous partons du principe que vous disposez déjà d'un compte Githun.
+Il existe un [guide officiel](http://dynalon.github.io/mdwiki/#!tutorials/github.md) mais voici une procédure détaillée et complémentaire pour héberger MDwiki sur Github. Nous partons du principe que vous disposez déjà d'un compte Github.
 
 * sur Github
   * [Créer un répo](https://github.com/new) et lui donner un nom adéquat(par exemple `my-mdwiki`)
