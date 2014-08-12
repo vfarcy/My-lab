@@ -1,4 +1,4 @@
-# MDwiki
+# My wiki
 
 [About](index.md)
 
