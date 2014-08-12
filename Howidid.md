@@ -1,4 +1,4 @@
-# MDwiki (and how to get started)
+# How to get started (the hard way) ?
 
 If you haven't already heard about it, [MDwiki](http://dynalon.github.io/mdwiki/) is a cool little CMS/Wiki that runs entirely clientside (HTML5/Javascript) and uses [Markdown](http://en.wikipedia.org/wiki/Markdown)
 
