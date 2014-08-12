@@ -1,8 +1,8 @@
 # My wiki
 
-[About](index.md)
+[Wellcome](index.md)
 
-[Docs]()
+[MDwiki]()
 
   * [What is it about ?](aboutmdwiki.md)
   * [Quickstart](quickstart.md)
