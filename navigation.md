@@ -2,7 +2,7 @@
 
 [Wellcome](index.md)
 
-[Blog](blog.farcy.me)
+[Blog](http://blog.farcy.me)
 
 [MDwiki]()
 
