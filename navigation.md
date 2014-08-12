@@ -2,8 +2,6 @@
 
 [Blog](myblog.md)
 
-[Forum](forum.md)
-
 [MDwiki]()
 
   * [About](aboutmdwiki.md)
