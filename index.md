@@ -7,6 +7,7 @@ Who in the world am I supposed to be ?
 ― Lewis Carroll, Alice in Wonderland
 
 ![](https://pbs.twimg.com/profile_images/417572167010623488/DGIpQgTQ_bigger.png)
+
 [gimmick:twitterfollow](VF4rcy)
 
 It seems that I tweet as [@VF4rcy](https://twitter.com/VF4rcy), randomly in French or English, about #lifehacking #education2.0 #startups #innovation #frenchtech and #IoT, way more often than I post on my blog. 
