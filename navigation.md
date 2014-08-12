@@ -1,6 +1,7 @@
 # Home
 
 [Blog](myblog.md)
+[Forum](talk.md)
 
 [About]()
 
