@@ -3,9 +3,9 @@ What is it about ?
 
 MDwiki is a CMS/Wiki __completely built in HTML5/Javascript and runs 100% on the client__. No special software installation or server side processing is required. Just upload the `mdwiki.html` shipped with MDwiki into the same directory as your markdown files and you are good to go!
 
-Note: The website you are currently viewing is realized with MDwiki and hosted on [GitHub pages](http://pages.github.com/). [http://mdwiki.info](http://mdwiki.info) redirects here.
+Note: The website you are currently viewing is realized with MDwiki and hosted on [GitHub pages](http://pages.github.com/). [http://mdwiki.farcy.me](http://farcy.me) redirects here.
 
-[gimmick:twitterfollow](timodoerr)
+[gimmick:twitterfollow](VF4rcy)
 
 Features
 --------
