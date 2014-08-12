@@ -1,6 +1,6 @@
 
 Who in the world am I supposed to be ?
-=======
+--------
 
 “I wonder if I've been changed in the night? Let me think: was I the same when I got up this morning? I almost think I can remember feeling a little different. But if I'm not the same, the next question is 'Who in the world am I?' Ah, that's the great puzzle!”
 
@@ -17,7 +17,7 @@ It seems that I tweet as [@VF4rcy](https://twitter.com/VF4rcy), randomly in Fren
 </dl>
 
 Disqus
-=======
+--------
 
 This moderated board is intended for general discussion. Media Attachments are enabled and you can post as a guest. I'm notified upon new messages.
 
