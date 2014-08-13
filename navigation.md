@@ -1,7 +1,7 @@
 # Home
 
 [Blog](myblog.md)
-[Forum](talk.md)
+[Forum](forum.md)
 
 [MDwiki ?]()
 
