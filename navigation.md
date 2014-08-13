@@ -3,7 +3,7 @@
 [Blog](myblog.md)
 [Forum](forum.md)
 
-[MDwiki ?]()
+[MDwiki]()
 
   * [About](aboutmdwiki.md)
   * [Quickstart](quickstart.md)
