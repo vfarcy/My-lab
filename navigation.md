@@ -3,9 +3,9 @@
 [Blog](myblog.md)
 [Forum](talk.md)
 
-[About]()
+[MDwiki ?]()
 
-  * [MDwiki ?](aboutmdwiki.md)
+  * [About](aboutmdwiki.md)
   * [Quickstart](quickstart.md)
   * [Layout](layout.md)
   * [Gimmicks](gimmicks.md)
