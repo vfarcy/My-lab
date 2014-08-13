@@ -39,7 +39,7 @@ Il existe un [guide officiel](http://dynalon.github.io/mdwiki/#!tutorials/github
 [Download](download.md)
 ```
 
-  * Créer une première page (i'll only show you one, but the process is the same) en créant un fichier `index.md` (même nom que le fichier déclaré dans `navigation.md`.
+  * Créer une première page (le principe est identique pour les autres pages) en créant un fichier `index.md` (même nom que le fichier déclaré dans `navigation.md`.
 
 ```markdown
 # Hello World!
@@ -60,7 +60,7 @@ python -m SimpleHTTPServer 8000
 * Maintenant, il faut initialiser le repo Git:
   * Se rendre dans le répertoire ad-hoc (par exemple `cd ~/my-mdwiki`)
   * Initialiser le repo : `git init`
-  * Voilà une astuce [magique](http://www.retrologic.com/jargon/M/magic.html) (de [Sean Estabrooks](http://git.661346.n2.nabble.com/how-to-start-with-non-master-branch-tt3284326.html#a3284821)) pour faire en sorte que Git nomme sa branche initiale *gh-pages* et non *master*: `git symbolic-ref HEAD refs/heads/gh-pages`
+  * Créer une branche initiale *gh-pages* (et non *master*): `git symbolic-ref HEAD refs/heads/gh-pages`
   * Ajouter tous les fichiers créés jusqu'à maintenant : `git add .`
   * Les commiter :  `git commit -m "Initial Commit"`
   * Ajouter le repo Gihub en tant que distant (replacer `YOURUSERNAME` avec le login Github réel, et `my-mdwiki` avec le nom du repo créé initialement) : `git remote add origin git@github.com:YOURUSERNAME/my-mdwiki.git`
