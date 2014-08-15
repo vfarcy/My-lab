@@ -1,7 +1,7 @@
 What is this ? The lab ? MDwiki ?
 =====
 
-This is my lab, wich is build using MDwiki and hosted on [GitHub pages](https://github.com/vfarcy/mdwiki). It features the magic Github's  `CNAME` functionality to redirect [http://lab.farcy.me](http://lab.farcy.me) here.
+This is my lab, wich has been built using MDwiki. It is hosted on [GitHub pages](https://github.com/vfarcy/mdwiki) and features the magic Github's  `CNAME` functionality to redirect [http://lab.farcy.me](http://lab.farcy.me) here.
 
 MDwiki is a CMS/Wiki __completely built in HTML5/Javascript and runs 100% on the client__. No special software installation or server side processing is required. Just upload the `mdwiki.html` shipped with MDwiki into the same directory as your markdown files and you are good to go!
 
