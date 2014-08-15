@@ -1,6 +1,5 @@
 # The Lab'
 
-[Blog](myblog.md)
 [Forum](forum.md)
 
 [Projects]()
