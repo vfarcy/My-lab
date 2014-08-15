@@ -5,6 +5,7 @@ This is my lab, wich is build using MDwiki and hosted on [GitHub pages](https://
 
 MDwiki is a CMS/Wiki __completely built in HTML5/Javascript and runs 100% on the client__. No special software installation or server side processing is required. Just upload the `mdwiki.html` shipped with MDwiki into the same directory as your markdown files and you are good to go!
 
+The latest stable version is available for free [here](https://github.com/Dynalon/mdwiki/releases).
 
 Features
 --------
