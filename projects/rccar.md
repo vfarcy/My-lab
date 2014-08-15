@@ -7,7 +7,7 @@ Building a programmable RC Car
 
 The purpose of the project is to modify the remote control of a cheap RC car so it can be controlled by software. 
 
-An arduino will be wired to the remote control. It will pilot the remote controller using a very simple language :  
+This enhanced remote controller will be able to interpret a very simple language, as follows :  
 
 - Directions : FF = Forward, FR = Forward & Right, BB = Backward, etc.
 - Stop : SS = Stop
