@@ -5,6 +5,10 @@
 [Projects]()
 
   * [RC car](projects/rccar.md)
+  * # Tools
+  * [SQL designer](http://vfarcy.github.io/sqldesigner/)
+  * [Shaarly](http://shaarli.farcy.me/)
+  * [zerobin](http://zerobin.farcy.me/)
 
 [MDwiki]()
 
