@@ -8,7 +8,7 @@
   * # Tools
   * [SQL designer](http://vfarcy.github.io/sqldesigner/)
   * [Shaarly](http://shaarli.farcy.me/)
-  * [zerobin](http://zerobin.farcy.me/)
+  * [Zerobin](http://zerobin.farcy.me/)
 
 [MDwiki]()
 
