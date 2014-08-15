@@ -1,4 +1,4 @@
-mdwiki
+Tha lab
 ======
 
 This is a static blog / website / wiki based on [mdwiki](http://dynalon.github.io/mdwiki/)
