@@ -5,7 +5,7 @@ This is my lab, wich has been built using MDwiki. It is hosted on [GitHub pages]
 
 MDwiki is a CMS/Wiki __completely built in HTML5/Javascript and runs 100% on the client__. No special software installation or server side processing is required. Just upload the `mdwiki.html` shipped with MDwiki into the same directory as your markdown files and you are good to go!
 
-The latest stable version is available for free [here](https://github.com/Dynalon/mdwiki/releases).
+The latest stable version ([issue log](https://github.com/Dynalon/mdwiki/issues?q=is%3Aopen+is%3Aissue)) is available for free [here](https://github.com/Dynalon/mdwiki/releases). 
 
 As this repo is public, Github tracks everything :  todos, bugs, feature requests, and more. You can [create an issue](https://github.com/vfarcy/mdwiki/issues/new), [visit the issue log](https://github.com/vfarcy/My-lab/issueson) or [glance through the commits](https://github.com/vfarcy/My-lab/graphs/commit-activity) on Github.
 
