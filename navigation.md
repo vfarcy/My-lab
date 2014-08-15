@@ -3,6 +3,10 @@
 [Blog](myblog.md)
 [Forum](forum.md)
 
+[Projects]()
+
+  * [RC car](projects/rccar.md)
+
 [MDwiki]()
 
   * [About](aboutmdwiki.md)
