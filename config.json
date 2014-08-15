@@ -1,7 +1,7 @@
 {
     "useSideMenu": true,
     "lineBreaks": "gfm",
-    "additionalFooterText": "[@VF4rcy](https://twitter.com/VF4rcy)",
+    "additionalFooterText": "@VF4rcy / ",
     "anchorCharacter": "&#x2693;",
     "title": "Raw notes"
 }
