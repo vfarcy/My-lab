@@ -1,4 +1,4 @@
-# Home
+# The Lab'
 
 [Blog](myblog.md)
 [Forum](forum.md)
