@@ -1,7 +1,9 @@
-What is MDwiki ?
+What is this ? The lab ? MDwiki ?
 =====
 
-What you are currently viewing is realized with MDwiki and hosted on [GitHub pages](http://pages.github.com/). [http://mdwiki.farcy.me](http://farcy.me) redirects here.
+This is my lab wich is build using MDwiki.
+
+What you are currently viewing is realized with MDwiki and hosted on [GitHub pages](https://github.com/vfarcy/mdwiki). [http://lab.farcy.me](http://lab.farcy.me) redirects here.
 
 MDwiki is a CMS/Wiki __completely built in HTML5/Javascript and runs 100% on the client__. No special software installation or server side processing is required. Just upload the `mdwiki.html` shipped with MDwiki into the same directory as your markdown files and you are good to go!
 
