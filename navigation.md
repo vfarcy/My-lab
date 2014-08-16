@@ -5,10 +5,14 @@
 [Projects]()
 
   * [RC car](projects/rccar.md)
+  - - - -
   * # Tools
   * [SQL designer](http://vfarcy.github.io/sqldesigner/)
   * [Shaarly](http://shaarli.farcy.me/)
   * [Zerobin](http://zerobin.farcy.me/)
+  - - - - 
+  * [Ideas](http://www.inoreader.com/stream/user/1005855375/tag/projectideas/view/html)
+
 
 [MDwiki]()
 
