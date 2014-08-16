@@ -11,7 +11,7 @@
   * [Shaarly](http://shaarli.farcy.me/)
   * [Zerobin](http://zerobin.farcy.me/)
   - - - - 
-  * [Ideas](http://www.inoreader.com/stream/user/1005855375/tag/projectideas/view/html)
+  * [Ideas](http://bit.ly/ideesdeprojets)
 
 
 [MDwiki]()
