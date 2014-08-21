@@ -12,4 +12,4 @@ Ever wanted to know what the astronauts see right now  ? [This](http://iss.astro
 <br /><a href="http://www.ustream.tv" style="font-size: 12px; line-height: 20px; font-weight: normal; text-align: left;" target="_blank">Broadcast live streaming video on Ustream</a>
 
 
-!note: There is a "Change theme" menu item in the main menu. If you find this theme difficult to read, try one of the more manuscript-like themes that are available.
+note: There is a "Change theme" menu item in the main menu. If you find this theme difficult to read, try one of the more manuscript-like themes that are available.
