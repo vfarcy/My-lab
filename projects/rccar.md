@@ -26,7 +26,7 @@ Préparatifs
 
 Mise en place de l'environnement de travail après avoir vérifié que la voiture radiocommandée, tout juste reçue, fonctionne correctement. La portée est extrêmement limitée (deux mètres ?) mais la voiture réagit bien aux 4 commandes : avant, arrière, gauche et droite. Les commandes de direction sont "tout ou rien", il est impossible de doser la vitesse.
 
-Je prépare l'environnement de travail, et début par l'installation de quelques programmes indispensables; notamment Github windows et l'IDE arduino, la solution retenue pour "piloter" la radio-commande. Sur la plan matériel, je fais place nette sur mon espace de travail afin de minimiser les risques de court-circuit et de mauvaises manipulations avec le matériel (fer à souder, prises électriques, ...). 
+Je prépare l'environnement de travail, et installe quelques programmes indispensables; notamment Github windows et l'IDE arduino, la solution que je retiens pour "piloter" la radio-commande. Sur la plan matériel, je fais place nette sur mon espace de travail afin de minimiser les risques de court-circuit et de mauvaises manipulations avec le matériel (fer à souder, prises électriques, ...). 
 
 J'ouvre ensuite la télécommande et procède au repérage des composants, des boutons et du circuit imprimé.
 
