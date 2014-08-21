@@ -4,7 +4,7 @@
 
 [Projects]()
 
-  * [RC car](projects/rccar.md)
+  * [Formula Zero](projects/rccar.md)
   - - - -
   * # Tools
   * [SQL designer](http://vfarcy.github.io/sqldesigner/)

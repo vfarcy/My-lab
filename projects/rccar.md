@@ -1,6 +1,6 @@
 ###### August 15th, 2014
 
-Building a programmable RC Car
+Formula Zero : Building a programmable RC Car
 ------------------------
 
 ![](http://upload.wikimedia.org/wikipedia/en/thumb/1/1c/Car_collection.jpg/300px-Car_collection.jpg "Not yet done !")
