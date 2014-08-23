@@ -48,13 +48,17 @@ Faire une brève présentation du kit RC.
 
 Il s'agit d'un kit vendu dans un emballage de type canette de bière qui regroupe une voiture à l'échelle 1/54 (elle mesure quelques centimètres) et un émetteur radio. On peut l'acheter pour une dizaine d'euros.
 
-L'émetteur radio dispose de quatre boutons poussoir : deux pour la direction et deux pour le sens de la marche (avant / arrière). 
 
 <a href="http://www.amazon.fr/gp/product/B00FFRXZIW/ref=as_li_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=B00FFRXZIW&linkCode=as2&tag=farcy.me-21"><img border="0" src="http://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00FFRXZIW&Format=_SL160_&ID=AsinImage&MarketPlace=FR&ServiceVersion=20070822&WS=1&tag=farcy.me-21" ></a><img src="http://ir-fr.amazon-adsystem.com/e/ir?t=farcy.me-21&l=as2&o=8&a=B00FFRXZIW" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+L'émetteur radio est alimenté en standard sous 3 V par deux piles bâton de 1,5V chacune. Il dispose de quatre boutons poussoirs : deux pour la direction et deux pour le sens de la marche (avant / arrière). **Le principe du montage est que ces quatre boutons poussoirs soient dorénavant pilotés par les sorties de l'Arduino**. Pour que cela soit possible, nous devons ouvrir l'émetteur, couper son alimentation 3V originale et l'alimenter à partir de l'Arduino (en 3,3 V, mais cela ne semble pas poser de problème!). Dans une première version du montage, j'avais omis d'alimenter l'émetteur à partir de l'Aduino en conservant sa source d'alimentation sur piles, ce qui perturbait le bon fonctionnement de l'ensemble.
+
 
 Faire une brève présentation de l'Arduino.
 
 <a href="http://www.amazon.fr/gp/product/B00CF2REXC/ref=as_li_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=B00CF2REXC&linkCode=as2&tag=presqriensurp-21"><img border="0" src="http://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00CF2REXC&Format=_SL160_&ID=AsinImage&MarketPlace=FR&ServiceVersion=20070822&WS=1&tag=presqriensurp-21" ></a><img src="http://ir-fr.amazon-adsystem.com/e/ir?t=presqriensurp-21&l=as2&o=8&a=B00CF2REXC" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+Nous utilisons quatre sorties de l'Arduino pour piloter l'émetteur (pas directement mais "à travers un composant ULN 2803 dont nous parlerons plus-tard). Deux sorties, celles correspondant au sens de la marche, avant ou arrière, sont en mode PWN. Cela permet de réguler la vitesse de déplacement. Les deux autres sorties, direction à gauche et direction à droite, sont quant à elle "tout ou rien" : le braquet est soit maximal, auquel cas on tourne "à fond", soit nul, auquel cas on remet les roues "droites".  
 
 
 Faire une brève présentation du composant ULN 2803.
@@ -63,6 +67,7 @@ Faire une brève présentation du composant ULN 2803.
 
 
 Voici une photo de l'ensemble sur laquelle on voit les deux éléments principaux : l'Arduino et la télécommande dépouillée.
+
 
 <Insérer une photo>
 
