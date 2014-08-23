@@ -40,11 +40,11 @@ Validation de la faisabilité (en cours de rédaction)
 
 ![](..\assets\IMG_20140823_102706.jpg "Vue d'ensemble")
 
-Le prototype matériel est câblé et fonctionne. L'exécution d'un programme Arduino très simple a permis de tester avec succès les 4 commandes : marche avant, marche arrière, à gauche et à droite. Voyons plus en détail le montage électronique et le programme Arduino.
+Le prototype matériel est câblé et fonctionne. L'exécution de programmes Arduino très simples a permis de tester avec succès l'arrêt, la marche avant, la marche arrière et la gauche / droite. Nous allons voir plus en détail le montage électronique et les programmes de test.
 
 ### Le montage ###
 
-Le montage s'articule autour de trois composants principaux : le kit radio commandé, l'Arduino et un circuit intégré (l'ULN 2803 "Darlington driver") qui relie l'Arduino à l'émetteur radio. 
+Le montage s'articule autour de trois composants principaux : le kit RC, l'Arduino et un circuit intégré (l'ULN 2803 "Darlington driver") qui relie l'Arduino à l'émetteur radio. 
 
 *Le kit RC.*
 
@@ -53,17 +53,17 @@ Il s'agit d'un kit vendu dans un emballage de type canette de bière qui regroup
 
 <a href="http://www.amazon.fr/gp/product/B00FFRXZIW/ref=as_li_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=B00FFRXZIW&linkCode=as2&tag=farcy.me-21"><img border="0" src="http://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00FFRXZIW&Format=_SL160_&ID=AsinImage&MarketPlace=FR&ServiceVersion=20070822&WS=1&tag=farcy.me-21" ></a><img src="http://ir-fr.amazon-adsystem.com/e/ir?t=farcy.me-21&l=as2&o=8&a=B00FFRXZIW" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
-L'émetteur radio est alimenté en standard sous 3 V par deux piles bâton de 1,5V chacune. Il dispose de quatre boutons poussoirs : deux pour la direction et deux pour le sens de la marche (avant / arrière). **Le principe du montage est que ces quatre boutons poussoirs soient dorénavant pilotés par les sorties de l'Arduino**. Pour que cela soit possible, nous devons ouvrir l'émetteur, couper son alimentation 3V originale et l'alimenter à partir de l'Arduino (en 3,3 V, mais cela ne semble pas poser de problème!). Dans une première version du montage, j'avais omis d'alimenter l'émetteur à partir de l'Aduino en conservant sa source d'alimentation sur piles, ce qui perturbait le bon fonctionnement de l'ensemble.
+L'émetteur radio est alimenté en standard sous 3 V par deux piles bâton de 1,5V chacune. Il dispose de quatre boutons poussoirs : deux pour la direction et deux pour le sens de la marche (avant / arrière). **Le principe du montage est que ces quatre boutons poussoirs seront dorénavant pilotés par l'Arduino**. Pour que cela soit possible, nous devons commencer par un peu de bricolage : ouvrir l'émetteur, couper les deux fils alimentation vers les deux piles de 1,5V et ponter l'alimentation vers le +VCC de l'Arduino (en 3,3 V, mais cela ne semble pas poser de problème à l'émetteur !). Dans une première version du montage, j'avais omis d'alimenter l'émetteur à partir de l'Arduino ce qui perturbait le bon fonctionnement de l'ensemble.
 
 
 *L'Arduino.*
 
 <a href="http://www.amazon.fr/gp/product/B00CF2REXC/ref=as_li_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=B00CF2REXC&linkCode=as2&tag=presqriensurp-21"><img border="0" src="http://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00CF2REXC&Format=_SL160_&ID=AsinImage&MarketPlace=FR&ServiceVersion=20070822&WS=1&tag=presqriensurp-21" ></a><img src="http://ir-fr.amazon-adsystem.com/e/ir?t=presqriensurp-21&l=as2&o=8&a=B00CF2REXC" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
-Nous utilisons quatre sorties de l'Arduino pour piloter l'émetteur (pas directement mais "à travers un composant ULN 2803 dont nous parlerons plus-tard). Deux sorties, celles correspondant au sens de la marche, avant ou arrière, sont en mode PWN. Cela permet de réguler la vitesse de déplacement. Les deux autres sorties, direction à gauche et direction à droite, sont quant à elle "tout ou rien" : le braquet est soit maximal, auquel cas on tourne "à fond", soit nul, auquel cas on remet les roues "droites".  
+Nous utilisons quatre sorties de l'Arduino pour piloter l'émetteur (pas directement mais "à travers un composant ULN 2803 dont nous parlerons plus-tard). Deux sorties, celles correspondant au sens de la marche, avant ou arrière, sont en mode PWN. Cela permet de réguler la vitesse de déplacement. Les deux autres sorties, direction à gauche et direction à droite, sont quant à elle "tout ou rien" : le braquet est soit maximal, auquel cas on tourne "vite à fond", soit nul, auquel cas on remet les roues "droites".  
 
 
-Le circuit intégé "ULN 2803", aussi appelé "Darlington driver"
+*Le circuit intégé "ULN 2803", aussi appelé "Darlington driver"*
 
 Ce circuit à 18 pattes agit comme un "tampon" entre l'Arduino et la radio émettrice. Dix pattes sont utilisées :
 - en entrée, 4 pattes sont connectées aux 4 broches de l'Arduino (avant, arrière, droite et gauche)
@@ -71,13 +71,13 @@ Ce circuit à 18 pattes agit comme un "tampon" entre l'Arduino et la radio émet
 - la masse
 - VCC, (+3,3 V)   
 
-Le rôle de ce circuit est double : il transforme en 3 V (tension de l'émetteur) le 5 V des broches de l'Arduino et ETC ETC ETC...
-
+Le rôle de ce circuit est double : il transforme en 3 V (tension originale de l'émetteur) le 5 V des broches de l'Arduino et actionne jusqu'à 8 "interrupteurs" (4 suffisent dans notre application) capables de piloter une charge pouvant aller jusqu'à 40V ou 500mA. Pour notre montage, quatre des huit "interrupteurs" actionnent chacun un bouton poussoir de l'émetteur.
  
 <a href="http://www.amazon.fr/gp/product/B00JWHW0KU/ref=as_li_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=B00JWHW0KU&linkCode=as2&tag=presqriensurp-21"><img border="0" src="http://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00JWHW0KU&Format=_SL160_&ID=AsinImage&MarketPlace=FR&ServiceVersion=20070822&WS=1&tag=presqriensurp-21" ></a><img src="http://ir-fr.amazon-adsystem.com/e/ir?t=presqriensurp-21&l=as2&o=8&a=B00JWHW0KU" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
+*Un aperçu de l'ensemble*
 
-Voici les schémas d'ensemble (merci Fritzing) :
+J'ai modélisé avec Fritzing le schéma correspondant au montage. Voici ce que cela donne :
 
 ![](..\assets\FormulaOne_bb.png "L'Arduino, l'UN2803 et les 4 boutons poussoirs ")
 
@@ -96,3 +96,8 @@ J'ai créé quatre programmes pour valider le montage :
 Les sources sont disponibles sur [Github](https://github.com/vfarcy/InterRCCar.git) où il est possible de les [télécharger](https://github.com/vfarcy/InterRCCar/archive/master.zip). Je reprends ici deux programmes que je vais commenter : Forward.ino (marche avant) et RightLeft.ino (test de la direction).
 
 .....
+
+### Vidéos explicatives ###
+
+Les deux vidéos suivantes reprennent en image les explications de cet article. N'hésitez pas à me contacter si certains points méritent des éclaircissements.
+
