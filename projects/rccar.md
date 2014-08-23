@@ -38,11 +38,13 @@ La prochaine étape consistera à valider la solution en écrivant un petit prog
 Validation de la faisabilité (en cours de rédaction)
 ------------------------
 
+![](..\assets\IMG_20140823_102706.jpg "Vue d'ensemble")
+
 Le prototype matériel est câblé et fonctionne. L'exécution d'un programme Arduino très simple a permis de tester avec succès les 4 commandes : marche avant, marche arrière, à gauche et à droite. Voyons plus en détail le montage électronique et le programme Arduino.
 
 ### Le montage ###
 
-Le montage s'articule autour de trois composants principaux : le kit radio commandé, l'Arduino et un circuit intégré (l'ULN 2803) qui relie l'Arduino à l'émetteur radio. 
+Le montage s'articule autour de trois composants principaux : le kit radio commandé, l'Arduino et un circuit intégré (l'ULN 2803 "Darlington driver") qui relie l'Arduino à l'émetteur radio. 
 
 Faire une brève présentation du kit RC.
 
