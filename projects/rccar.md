@@ -68,12 +68,12 @@ Faire une brève présentation du composant ULN 2803.
 <a href="http://www.amazon.fr/gp/product/B00JWHW0KU/ref=as_li_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=B00JWHW0KU&linkCode=as2&tag=presqriensurp-21"><img border="0" src="http://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00JWHW0KU&Format=_SL160_&ID=AsinImage&MarketPlace=FR&ServiceVersion=20070822&WS=1&tag=presqriensurp-21" ></a><img src="http://ir-fr.amazon-adsystem.com/e/ir?t=presqriensurp-21&l=as2&o=8&a=B00JWHW0KU" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 
-Voici une photo de l'ensemble sur laquelle on voit les deux éléments principaux : l'Arduino et la télécommande dépouillée.
+Voici les schémas d'ensemble (merci Fritzing) :
 
+![](..\assets\FormulaOne_bb.png "L'Arduino, l'UN2803 et les 4 boutons poussoirs ")
 
-<Insérer une photo>
+![](..\assets\FormulaOne_schéma.png "Implantation Formula One ")
 
-Le câblage de l'ensemble est présenté sur ce Fritzing :
 
 ### Le programme ###
 
