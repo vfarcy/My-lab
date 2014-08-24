@@ -24,9 +24,9 @@ Préparatifs
 ![](..\assets\IMG_20140821_203122.jpg "Le fil rouge sur le bouton rouge !")
 
 
-Mise en place de l'environnement de travail après avoir vérifié que la voiture radiocommandée, tout juste reçue, fonctionne correctement. La portée est extrêmement limitée (deux mètres ?) mais la voiture réagit bien aux 4 commandes : avant, arrière, gauche et droite. Les commandes de direction sont "tout ou rien", il est impossible de doser la vitesse.
+Mise en place de l'environnement de travail après avoir vérifié que la voiture radiocommandée, tout juste reçue, fonctionne correctement. La portée est plutôt limitée (deux mètres ?) mais la voiture réagit bien aux 4 commandes : avant, arrière, gauche et droite. Les commandes de direction sont "tout ou rien", il est impossible de doser la vitesse.
 
-Je prépare l'environnement de travail, et installe quelques programmes indispensables; notamment Github windows et l'IDE arduino, la solution que je retiens pour "piloter" la radio-commande. Sur la plan matériel, je fais place nette sur mon espace de travail afin de minimiser les risques de court-circuit et de mauvaises manipulations avec le matériel (fer à souder, prises électriques, ...). 
+Je prépare l'environnement de travail, et installe quelques programmes indispensables; notamment Github windows et l'IDE arduino, la solution que je retiens pour "piloter" la radio-commande. Sur la plan matériel, je fais place nette sur l'espace de travail afin de minimiser les risques de court-circuit et de mauvaises manipulations avec le matériel (fer à souder, prises électriques, ...). 
 
 J'ouvre ensuite la télécommande et procède au repérage des composants, des boutons et du circuit imprimé.
 
@@ -84,16 +84,15 @@ J'ai modélisé avec Fritzing le schéma correspondant au montage. Voici ce que 
 ![](..\assets\FormulaOne_schéma.png "Implantation Formula One ")
 
 
-### Le programme ###
+### Les programmes ###
 
-J'ai créé quatre programmes pour valider le montage :
+J'ai créé trois programmes pour valider le montage :
 
 - Mise à zéro (vitesse nulle, roues dans l'axe),
-- Marche avant,
-- Marche arrière,
+- Marche avant, marche arrière,
 - Battement alterné gauche / droite de la direction
 
-Les sources sont disponibles sur [Github](https://github.com/vfarcy/InterRCCar.git) où il est possible de les [télécharger](https://github.com/vfarcy/InterRCCar/archive/master.zip). Je reprends ici deux programmes que je vais commenter : Forward.ino (marche avant) et RightLeft.ino (test de la direction).
+Les sources sont disponibles sur [Github](https://github.com/vfarcy/InterRCCar.git) où il est possible de les [télécharger](https://github.com/vfarcy/InterRCCar/archive/master.zip). Je reprends ici deux programmes que je vais commenter : ForBackward.ino (marche avant) et RightLeft.ino (test de la direction).
 
 .....
 
