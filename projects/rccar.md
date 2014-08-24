@@ -71,6 +71,11 @@ Ce circuit à 18 pattes agit comme un "tampon" entre l'Arduino et la radio émet
 - la masse
 - VCC, (+3,3 V)   
 
+Le principe de ce circuit est simple :
+- Le 0 V doit être relié à la masse
+- L'application d'une tension de 5 V sur une entrée commute la sortie correspondante à la masse
+- L'application de 0 V sur une entrée déconnecte la sortie correspondante.
+
 Le rôle de ce circuit est double : il transforme en 3 V (tension originale de l'émetteur) le 5 V des broches de l'Arduino et actionne jusqu'à 8 "interrupteurs" (4 suffisent dans notre application) capables de piloter une charge pouvant aller jusqu'à 40V ou 500mA. Pour notre montage, quatre des huit "interrupteurs" actionnent chacun un bouton poussoir de l'émetteur.
  
 <a href="http://www.amazon.fr/gp/product/B00JWHW0KU/ref=as_li_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=B00JWHW0KU&linkCode=as2&tag=presqriensurp-21"><img border="0" src="http://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00JWHW0KU&Format=_SL160_&ID=AsinImage&MarketPlace=FR&ServiceVersion=20070822&WS=1&tag=presqriensurp-21" ></a><img src="http://ir-fr.amazon-adsystem.com/e/ir?t=presqriensurp-21&l=as2&o=8&a=B00JWHW0KU" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
