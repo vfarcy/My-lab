@@ -27,7 +27,7 @@ Je procède à l'ouverture de la télé-commande et commence par souder deux fil
 La prochaine étape consistera à valider la solution en écrivant un petit programme arduino qui commande l'état piloté par le fil jaune, ce qui nécessitera auparavant un peu de câblage et de soudure.
 
 ###### Le 23 août 2014
-Validation de la faisabilité (en cours de rédaction)
+Réalisation
 ------------------------
 
 ![](..\assets\IMG_20140823_102706.jpg "Vue d'ensemble")
