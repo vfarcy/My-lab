@@ -5,7 +5,9 @@ Formula Zero : Pilotage d'un jouet radio-commandé
 
 ![](http://upload.wikimedia.org/wikipedia/en/thumb/1/1c/Car_collection.jpg/300px-Car_collection.jpg "Not yet done !")
 
-Jon Bennett présente sur son blog un projet dans lequel un Arduino pilote la télécommande d'une voiture radiocommandée. Les lignes qui suivent présentent une adaptation de ce projet que j'ai avant tout pris comme une opportunité pratique de découverte de l'Arduino.
+Jon Bennett présente sur [son blog](http://www.jbprojects.net/articles/programmable-rc/) un projet dont l'objectif est de piloter la télécommande d'une voiture radiocommandée. 
+
+Les lignes qui suivent présentent une adaptation de ce projet que j'ai avant tout réalisé en vue de découvrir l'Arduino.
 
 ###### Le 21 août 2014
 Préparatifs
@@ -84,7 +86,7 @@ J'ai modélisé avec Fritzing le schéma correspondant au montage. Voici ce que 
 Je me suis très largement inspiré du programme initial de Jon Bennett que j'ai adapté pour valider le montage et le bon déplacement de la voiture au moyen d'un langage élémentaire dont un exemple est présenté ci dessous :
 
    
-```c++
+```c 
 C[] = {
           {FORWARD_BIT,15,2000}, /*Write the car's journey here.  */
           {BACKWARD_BIT+LEFT_BIT,15,2000},
@@ -95,9 +97,9 @@ C[] = {
 
 ```
     
-Les instructions de déplacement sont codés dans des instructions d'un ligne commandant chacune une direction, une vitesse et une durée. Ainsi, le programme précédent, qui contient 4 lignes, commande à la voiture d'avancer à une vitesse de 5 pendant 3 secondes, de reculer en braquant à gauche à une vitesse de 5 pendant 5 secondes, de reculer en ligne droite à une vitesse de 15 pendant 1,5 secondes et d'avancer en braquant à droite à une vitesse de 20 pendant 1,5 seconde. 
+Les instructions de déplacement, stockés dans un tableau `C[]`, sont codées dans des instructions d'un ligne commandant chacune une direction, une vitesse et une durée. Ainsi, le programme précédent, qui contient 4 lignes, commande à la voiture d'avancer à une vitesse de 5 (comprise entre 0 et 255) pendant 3 secondes (3000 ms), de reculer en braquant à gauche à une vitesse de 5 pendant 5 secondes, de reculer en ligne droite à une vitesse de 15 pendant 1,5 secondes et d'avancer en braquant à droite à une vitesse de 20 pendant 1,5 seconde. 
 
-Les sources sont disponibles sur [Github](https://github.com/vfarcy/InterRCCar.git) où il est possible de les [télécharger](https://github.com/vfarcy/InterRCCar/archive/master.zip). 
+Les sources sont disponibles sur [Github](https://github.com/vfarcy/InterRCCar.git) où il est aussi possible de les [télécharger](https://github.com/vfarcy/InterRCCar/archive/master.zip). 
 
 ### Vidéos explicatives ###
 
