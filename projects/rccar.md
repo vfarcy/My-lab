@@ -85,7 +85,7 @@ J'ai modélisé avec Fritzing le schéma correspondant au montage. Voici ce que 
 
 Je me suis inspiré du programme initial de Jon Bennett que j'ai adapté pour valider le montage et le bon déplacement de la voiture au moyen d'un langage élémentaire dont un exemple est présenté ci dessous :
 
-```c
+```cpp
 C[] = {
       {FORWARD_BIT,15,2000}, /*Write the car's journey here.  */
       {BACKWARD_BIT+LEFT_BIT,15,2000},
