@@ -7,7 +7,7 @@ Formula Zero : Pilotage d'un jouet radio-commandé
 
 Jon Bennett présente sur [son blog](http://www.jbprojects.net/articles/programmable-rc/) un projet dont l'objectif est de piloter la télécommande d'une voiture radiocommandée. 
 
-Les lignes qui suivent présentent une adaptation de ce projet que j'ai avant tout réalisé en vue de découvrir l'Arduino.
+Les lignes qui suivent présentent une adaptation de ce projet. Je l'ai appelé "Formula Zéro" et l'ai réalisé avant tout dans le but de découvrir l'Arduino.
 
 ###### Le 21 août 2014
 Préparatifs
