@@ -85,14 +85,15 @@ J'ai modélisé avec Fritzing le schéma correspondant au montage. Voici ce que 
 
 Je me suis inspiré du programme initial de Jon Bennett que j'ai adapté pour valider le montage et le bon déplacement de la voiture au moyen d'un langage élémentaire dont un exemple est présenté ci dessous :
 
-    C[] = {
+```c
+C[] = {
       {FORWARD_BIT,15,2000}, /*Write the car's journey here.  */
       {BACKWARD_BIT+LEFT_BIT,15,2000},
       {FORWARD_BIT,15,2000},   
       {BACKWARD_BIT+RIGHT_BIT,15,2000}, 
       {BACKWARD_BIT+LEFT_BIT,15,2000}, 
-    };
-
+};
+```
 Les instructions de déplacement, stockés dans un tableau `C[]`, sont codées dans des instructions d'un ligne indiquant chacune une direction, une vitesse et une durée. Ainsi, le programme précédent, qui contient 4 lignes, commande à la voiture d'avancer à une vitesse de 5 (comprise entre 0 et 255) pendant 3 secondes (3000 ms), de reculer en braquant à gauche à une vitesse de 5 pendant 5 secondes, de reculer en ligne droite à une vitesse de 15 pendant 1,5 secondes et d'avancer en braquant à droite à une vitesse de 20 pendant 1,5 seconde. 
 
 Les sources sont disponibles sur [Github](https://github.com/vfarcy/InterRCCar.git) où il est aussi possible de les [télécharger](https://github.com/vfarcy/InterRCCar/archive/master.zip). 
