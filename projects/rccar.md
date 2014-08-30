@@ -5,9 +5,9 @@ Formula Zero : Pilotage d'un jouet radio-commandé
 
 ![](http://upload.wikimedia.org/wikipedia/en/thumb/1/1c/Car_collection.jpg/300px-Car_collection.jpg "Not yet done !")
 
-Jon Bennett présente sur [son blog](http://www.jbprojects.net/articles/programmable-rc/) un projet dont l'objectif est de piloter la télécommande d'une voiture radiocommandée. 
+Sur son blog, Jon Bennett présente [un projet](http://www.jbprojects.net/articles/programmable-rc/) dont l'objectif est de piloter la télécommande d'une voiture radiocommandée. Pour cela, il choisit de relier un Arduino à la télécommande à laquelle il envoie une série de déplacements. 
 
-Les lignes qui suivent présentent une adaptation de ce projet. Je l'ai appelé "Formula Zéro" et l'ai réalisé avant tout dans le but de découvrir l'Arduino.
+Les lignes qui suivent présentent une adaptation de ce projet. J'ai appelé "Formula Zéro" cette adaptation et vous propose de découvrir la réalisation ans les lignes qui suivent. 
 
 ###### Le 21 août 2014
 Préparatifs
@@ -15,12 +15,15 @@ Préparatifs
 
 ![](..\assets\IMG_20140821_203122.jpg "Le fil rouge sur le bouton rouge !")
 
+J'ai avant tout réalisé ce projet dans le but de découvrir l'Arduino et sa programmation.
 
-Je viens de mettre en place mon environnement de travail après avoir vérifié le bon fonctionnement du jouet radio-commandé que j'ai reçu aujourd'hui. La portée est assez limitée (deux mètres ?) mais la voiture réagit bien aux 4 commandes : avant, arrière, gauche et droite. Les commandes de direction sont "tout ou rien", il est impossible de doser la vitesse.
+La première étape a  consisté à se procurer le matériel nécessaire et à aménager un mon environnement de travail.
 
-J'ai installé les logiciels que j'utiliserai pour réaliser le projet; le client Github windows et l'IDE arduino. Sur la plan matériel, je fais place nette sur mon espace de travail afin de minimiser les risques de court-circuit et de mauvaises manipulations avec le matériel (fer à souder, prises électriques, ...). 
+Je vérifie le bon fonctionnement du jouet radio-commandé reçu aujourd'hui. La portée est assez limitée (deux mètres ?) mais la voiture réagit bien aux 4 commandes : avant, arrière, gauche et droite. Les commandes de direction sont "tout ou rien", il est impossible de doser la vitesse.
 
-Assez joué, puisque le jouet fonctionne correctement, il est tant d'en comprendre le fonctionnement, de procéder au repérage des composants, des boutons et du circuit imprimé. La lecture sur blog de Jon Bennett me donne quelques orientations que je confronte aujourd'hui à la réalité.
+J'installe les logiciels : le client Github windows et l'IDE arduino. Sur la plan matériel, je fais place nette sur l'espace de travail afin de minimiser les risques de court-circuit et de mauvaises manipulations avec le matériel (fer à souder, prises électriques, ...). 
+
+Assez joué, la voiture fonctionne correctement, il est temps d'en comprendre le fonctionnement, de procéder au repérage des composants, des boutons et du circuit imprimé. La lecture sur blog de Jon Bennett me donne quelques orientations que je confronte à la réalité.
 
 Je procède à l'ouverture de la télé-commande et commence par souder deux fils d'alimentation (rouge et noir) et un premier fil jaune (il y en aura 4 au total) qui commanderont une direction (gauche / droite) ou un mouvement (avant / arrière). La méthode de repérage que j'ai adoptée est la suivante : chaque bouton poussoir dispose de 4 points de soudure sur le circuit imprimé. Chaque bouton est connecté via deux pairs : une pair est toujours à la masse tandis que l'autre est au +VCC (3,3 V) quand le bouton n'est pas actionné. Le fil jaune est soudé à l'une des pattes qui compose la pair reliée +VCC du bouton poussoir (il passe à 0 V quand il est actionné).
 
