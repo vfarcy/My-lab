@@ -5,6 +5,7 @@
 [Projects]()
 
   * [Formula Zero](projects/rccar.md)
+  * [Processing.js](projects/processing.md)
   - - - -
   * # Tools
   * [SQL designer](http://vfarcy.github.io/sqldesigner/)
