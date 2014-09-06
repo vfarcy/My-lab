@@ -1,5 +1,0 @@
-Hello,
-
-<script src=".\processing.js"></script> 
-<canvas data-processing-sources=".\anything.pde"></canvas>
-
