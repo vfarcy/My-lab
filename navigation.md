@@ -4,7 +4,8 @@
 
 [Projects]()
 
-  * [Formula Zero](projects/rccar.md) 
+  * [Formula Zero](projects/rccar.md)
+  * [Smartlocker](projects/smartlocker.md)  
   - - - -
   * # Tools
   * [SQL designer](http://vfarcy.github.io/sqldesigner/)
