@@ -1,6 +1,7 @@
 # The Lab'
 
 [Forum](forum.md)
+[Notes](notes.md)
 
 [Projects]()
 
