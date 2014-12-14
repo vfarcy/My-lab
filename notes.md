@@ -23,7 +23,7 @@ Comment bien concevoir un programme arduino  ?
 ------------------------
 TBD
 
-<script src="https://gist.github.com/vfarcy/91c0e4e3290896d149b1.js"></script>
+[gimmick:gist](5641564)
 
 
 ```cpp
