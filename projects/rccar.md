@@ -101,7 +101,5 @@ Les instructions de déplacement, stockés dans un tableau `C[]`, sont codées d
 
 Les sources sont disponibles sur [Github](https://github.com/vfarcy/InterRCCar.git) où il est aussi possible de les [télécharger](https://github.com/vfarcy/InterRCCar/archive/master.zip). 
 
-### Vidéos explicatives ###
 
-Les deux vidéos suivantes reprennent en image les explications de cet article. N'hésitez pas à me contacter si certains points méritent des éclaircissements.
 
