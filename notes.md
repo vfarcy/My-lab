@@ -19,7 +19,7 @@ Pour finir, si vous utilisez le générateur de blog hexo.io, vous pouvez utilis
 
 ###### August 8th, 2014
 
-La communauté d'entreaide de Grosbill 
+La communauté d’entraide de Grosbill 
 ------------------------
 
 J'ai dernièrement acheté chez Grobill un SSD pour remplacer le disque dur d'un portable qui commençait à donner des signes de faiblesse.
@@ -38,5 +38,10 @@ J'ai donc cliqué sur le lien pour me désinscrire, ce qui m'a amené vers une p
 
 Cette expérience me rappelle l'époque à laquelle (c'est corrigé depuis), encore **par défaut**, Grosbill "proposait" un service d'échange à neuf à l'achat. Il fallait bien veiller à **décocher** l'option lors de la validation du panier d'achat, sous peine d'avoir une surprise lors du passage en caisse. 
 
+###### December 14th, 2014
+
+Comment bien concevoir un programme arduino  ?
+------------------------
+TBD
 
 
