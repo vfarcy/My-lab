@@ -21,7 +21,9 @@ Pour finir, si vous utilisez le générateur de blog hexo.io, vous pouvez utilis
 
 Comment bien concevoir un programme arduino  ?
 ------------------------
-TBD
+TBD ...
+
+Attention, il y a un [bug](https://github.com/Dynalon/mdwiki/issues/150) MDwiki qui ne prend pas en compte la nouvelle numérotation alphanumérique des Gist. 
 
 [gimmick:gist](9132644)
 
