@@ -25,7 +25,4 @@ TBD
 
 [gimmick:gist](9132644)
 
-[gimmick:gist](5641564)
-
-
 
