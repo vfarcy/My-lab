@@ -44,6 +44,8 @@ Comment bien concevoir un programme arduino  ?
 ------------------------
 TBD
 
+[gimmick:yuml]([User|+Forename+;Surname;+HashedPassword;-Salt|+Login();+Logout()])
+
 [gimmick:gist](91c0e4e3290896d149b1)
 
 
