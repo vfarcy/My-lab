@@ -25,6 +25,8 @@ TBD
 
 [gimmick:gist](5641564)
 
+[gimmick:gist](91c0e4e3290896d149b1)
+
 
 ```cpp
 // Michelino
