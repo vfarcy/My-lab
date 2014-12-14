@@ -44,6 +44,9 @@ Comment bien concevoir un programme arduino  ?
 ------------------------
 TBD
 
+[gimmick:gist](91c0e4e3290896d149b1)
+
+
 ```cpp
 // Michelino
 // Robot Vehicle firmware for the Arduino platform
