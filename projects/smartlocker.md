@@ -7,7 +7,7 @@ Il s'agit de proposer un projet permettant aux étudiants de côtoyer le monde d
 
 Ce projet demande des connaissances en programmation et en réseau et il confronte les étudiants à une réalisation matérielle comprenant une partie électronique. La phase d'avant projet permettra aux étudiants de spécifier la solution qu'ils vont implémenter et de poser les éléments de conception. Ils devront en particulier proposer et argumenter une architecture.
 
-Ils pourront profiter de l'avant projet pour étudier quelques plates-formes telles que [Dweet.io](https://dweet.io/), [Freeboard.io](http://freeboard.io/), [temboo](https://temboo.com/), [data.sparkfun.com](https://data.sparkfun.com/), [smartthings](http://smartthings.com), [bergcloud](http://bergcloud.com/), [m2X](https://m2x.att.com), [thingspeak](https://thingspeak.com/) ou encore [mosquitto](http://mosquitto.org/) s'ils souhaitent s'appuyer sur des services externes pour communiquer avec l'objet à piloter.   
+Ils pourront profiter de l'avant projet pour étudier quelques plates-formes telles que Teleduino,[Dweet.io](https://dweet.io/), [Freeboard.io](http://freeboard.io/), [temboo](https://temboo.com/), [data.sparkfun.com](https://data.sparkfun.com/), [smartthings](http://smartthings.com), [bergcloud](http://bergcloud.com/), [m2X](https://m2x.att.com), [thingspeak](https://thingspeak.com/) ou encore [mosquitto](http://mosquitto.org/) s'ils souhaitent s'appuyer sur des services externes pour communiquer avec l'objet à piloter.   
 
 L'objectif du projet est de réaliser un prorotype de serrure connectée.     
 
