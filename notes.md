@@ -27,7 +27,10 @@ Attention, il y a un [bug](https://github.com/Dynalon/mdwiki/issues/150) MDwiki 
 
 [gimmick:gist](9132644)
 
-Multi-tasking arudino, the right way
+
+###### February 28th, 2015
+
+Handling Multi-tasking w/ the arduino, the right way
 ------------------------
 TBC ...
 
