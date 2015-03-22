@@ -6,7 +6,9 @@
 [Projects]()
 
   * [Formula Zero](projects/rccar.md)
-  * [Smartlocker](projects/smartlocker.md)  
+  * [Smartlocker](projects/smartlocker.md)
+  * [Findme](projects/findme.md)
+  * [Easyschedule](projects/easyschedule.md)  
   - - - -
   * # Tools
   * [SQL designer](http://vfarcy.github.io/sqldesigner/)
