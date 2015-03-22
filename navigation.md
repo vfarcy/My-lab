@@ -15,7 +15,9 @@
   * [Shaarly](http://shaarli.farcy.me/)
   * [Zerobin](http://zerobin.farcy.me/)
   - - - - 
-  * [Ideas](http://bit.ly/ideesdeprojets)
+  * # Ideas
+  * [Tagged](http://bit.ly/ideesdeprojets)
+  * [Awesomes](https://docs.google.com/spreadsheet/pub?key=0Ardb--ETL_YXdHpKckhyTDFSLVlGcV9UNFJIZ2xoeUE&gid=0)
 
 
 [MDwiki]()
