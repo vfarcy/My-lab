@@ -17,7 +17,7 @@
   - - - - 
   * # Ideas
   * [Tagged](http://bit.ly/ideesdeprojets)
-  * [Awesomes](https://docs.google.com/spreadsheet/pub?key=0Ardb--ETL_YXdHpKckhyTDFSLVlGcV9UNFJIZ2xoeUE&gid=0)
+  * [Awesome](https://docs.google.com/spreadsheet/pub?key=0Ardb--ETL_YXdHpKckhyTDFSLVlGcV9UNFJIZ2xoeUE&gid=0)
 
 
 [MDwiki]()
